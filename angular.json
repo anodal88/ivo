@@ -2,5 +2,46 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
-  "projects": {}
+  "projects": {
+    "ivo": {
+      "projectType": "library",
+      "root": "projects/ivo",
+      "sourceRoot": "projects/ivo/src",
+      "prefix": "ivo",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ivo/tsconfig.lib.json",
+            "project": "projects/ivo/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ivo/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ivo/src/test.ts",
+            "tsConfig": "projects/ivo/tsconfig.spec.json",
+            "karmaConfig": "projects/ivo/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ivo/tsconfig.lib.json",
+              "projects/ivo/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "ivo"
 }
