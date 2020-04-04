@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ivo-base-directives": [
+        "dist/ivo-base-directives/ivo-base-directives",
+        "dist/ivo-base-directives"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
