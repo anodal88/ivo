@@ -16,9 +16,15 @@
       "dom"
     ],
     "paths": {
+<<<<<<< HEAD
       "ivo": [
         "dist/ivo/ivo",
         "dist/ivo"
+=======
+      "ivo-base-directives": [
+        "dist/ivo-base-directives/ivo-base-directives",
+        "dist/ivo-base-directives"
+>>>>>>> 06609459d2e3e395cfb417a9333f7576a17e68a1
       ]
     }
   },

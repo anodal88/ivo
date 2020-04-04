@@ -7,6 +7,7 @@
       "projectType": "library",
       "root": "projects/ivo",
       "sourceRoot": "projects/ivo/src",
+
       "prefix": "ivo",
       "architect": {
         "build": {
@@ -27,6 +28,7 @@
             "main": "projects/ivo/src/test.ts",
             "tsConfig": "projects/ivo/tsconfig.spec.json",
             "karmaConfig": "projects/ivo/karma.conf.js"
+
           }
         },
         "lint": {
@@ -35,6 +37,7 @@
             "tsConfig": [
               "projects/ivo/tsconfig.lib.json",
               "projects/ivo/tsconfig.spec.json"
+
             ],
             "exclude": [
               "**/node_modules/**"
