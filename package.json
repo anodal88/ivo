@@ -4,11 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build",
     "test": "ng test --no-watch",
     "coverage": "ng test --no-watch --code-coverage",
-    "istanbul": "./node_modules/.bin/istanbul",
-    "test-cov": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./*.spec.ts",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "ivo",
+  "name": "ivo-common-directives",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^9.1.0",

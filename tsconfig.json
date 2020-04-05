@@ -17,8 +17,8 @@
     ],
     "paths": {
       "ivo": [
-        "dist/ivo/ivo",
-        "dist/ivo"
+        "dist/ivo-common/ivo-common",
+        "dist/ivo-common"
       ]
     }
   },

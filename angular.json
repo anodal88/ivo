@@ -3,31 +3,31 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ivo": {
+    "ivo-common": {
       "projectType": "library",
-      "root": "projects/ivo",
-      "sourceRoot": "projects/ivo/src",
+      "root": "projects/ivo-common",
+      "sourceRoot": "projects/ivo-common/src",
 
       "prefix": "ivo",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ivo/tsconfig.lib.json",
-            "project": "projects/ivo/ng-package.json"
+            "tsConfig": "projects/ivo-common/tsconfig.lib.json",
+            "project": "projects/ivo-common/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ivo/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ivo-common/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ivo/src/test.ts",
-            "tsConfig": "projects/ivo/tsconfig.spec.json",
-            "karmaConfig": "projects/ivo/karma.conf.js",
+            "main": "projects/ivo-common/src/test.ts",
+            "tsConfig": "projects/ivo-common/tsconfig.spec.json",
+            "karmaConfig": "projects/ivo-common/karma.conf.js",
             "codeCoverage": true
           }
         },
@@ -35,8 +35,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ivo/tsconfig.lib.json",
-              "projects/ivo/tsconfig.spec.json"
+              "projects/ivo-common/tsconfig.lib.json",
+              "projects/ivo-common/tsconfig.spec.json"
 
             ],
             "exclude": [
@@ -46,5 +46,5 @@
         }
       }
     }},
-  "defaultProject": "ivo"
+  "defaultProject": "ivo-common"
 }
