@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/anodal88/ivo.png?branch=master)](https://travis-ci.org/anodal88/ivo)
+
 # IvoWorkspace
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
