@@ -1,8 +1,7 @@
 [![codecov](https://codecov.io/gh/anodal88/ivo/branch/master/graph/badge.svg)](https://codecov.io/gh/anodal88/ivo)
-
 [![Build Status](https://travis-ci.org/anodal88/ivo.svg?branch=master)](https://travis-ci.org/anodal88/ivo)
-
 [![HitCount](http://hits.dwyl.com/anodal88/ivo.svg)](http://hits.dwyl.com/anodal88/ivo)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f2d42158447641f33022/maintainability)](https://codeclimate.com/github/anodal88/ivo/maintainability)
 
 
 # IvoWorkspace
