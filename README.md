@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/anodal88/ivo.svg?branch=master)](https://travis-ci.org/anodal88/ivo)
 
-<br />
+[![HitCount](http://hits.dwyl.com/anodal88/ivo.svg)](http://hits.dwyl.com/anodal88/ivo)
 
 # IvoWorkspace
 
