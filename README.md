@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/anodal88/ivo.png?branch=master)](https://travis-ci.org/anodal88/ivo)
+[![Build Status](https://travis-ci.org/anodal88/ivo.svg?branch=master)](https://travis-ci.org/anodal88/ivo)
+
+<br />
 
 # IvoWorkspace
 
