@@ -27,8 +27,8 @@
           "options": {
             "main": "projects/ivo/src/test.ts",
             "tsConfig": "projects/ivo/tsconfig.spec.json",
-            "karmaConfig": "projects/ivo/karma.conf.js"
-
+            "karmaConfig": "projects/ivo/karma.conf.js",
+            "codeCoverage": true
           }
         },
         "lint": {
