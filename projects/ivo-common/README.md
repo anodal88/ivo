@@ -1,24 +1,19 @@
 # IvoBaseDirectives
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This is a lib that contain some common needs i have found during my time developing angular applications, the library contains the following directives:
+1. PreventDefaultDirective
+2. RemoveTagDirective
 
-## Code scaffolding
+## Description & Usage
 
-Run `ng generate component component-name --project ivo` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ivo`.
-> Note: Don't forget to add `--project ivo` or else it will be added to the default project in your `angular.json` file. 
+* PreventDefaultDirective: Can be used in scenarios when you want to prevent the default behavior of the component to be able to handle by yourself 
+   
+    - `Ex: <a (click)="doSomething()" ivoPreventDefault href="#"></a>` 
+   
+    - `Another valid example is to stop event propagation Ex: <a (click)="doSomething()" [stopPropagation]="booleanValue" ivoPreventDefault href="#"></a>`
 
-## Build
-
-Run `ng build ivo` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build ivo`, go to the dist folder `cd dist/ivo` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test ivo` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* RemoveTagDirective: Will be helpful for scenario when your UI/UX team do not remember you are working with Angular and the use child selectors to
+ style your app, but as a good angular developer you know the component Tag will be in the DOM, this is the perfect scenario where this directive comes handy.
+   
+    - `Ex: <my-component ivoRemoveTag></my-component> the final result will be the content of the component without the TAG on the DOM so the 
+    style provided will by you team will work` 
