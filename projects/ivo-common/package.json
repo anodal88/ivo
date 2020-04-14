@@ -1,7 +1,7 @@
 {
   "name": "ivo-common-directives",
   "keywords": ["prevent default directive", "remove tag directive", "angular directives"],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^9.1.0",
     "@angular/core": "^9.1.0",
